@@ -73,6 +73,7 @@
 }
 .haqida img{
     width: 650px;
+    height: 600px;
 }
 .haqida_matn h1{
     margin-bottom: 20px;
@@ -100,6 +101,7 @@
 }
 .max_rasm img{
     width: 650px;
+    height: 600px;
 }
 .maxsulot h1{
     font-size: 40px;
@@ -146,6 +148,7 @@
 }
 .aloqa_img img{
     width: 650px;
+    height: 600px;
 }
 .aloqa_h1{
     display: block;
