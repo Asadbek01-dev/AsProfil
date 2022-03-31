@@ -5,3 +5,17 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
+
+    let ism = document.querySelector('#ismi');
+    let telefon = document.querySelector('#telefoni');
+    let mavzu = document.querySelector('#mavzusi');
+    let messa = document.querySelector('#messa');
+    let button = document.querySelector('#button');
+
+    button.onclick = function(){
+      ism.value = null;
+      telefon.value = null;
+      mavzu.value = null;
+      messa.value = null;
+    }
+
