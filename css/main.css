@@ -104,7 +104,7 @@
     height: 600px;
 }
 .maxsulot h1{
-    font-size: 40px;
+    font-size: 25px;
     font-family: sans-serif;
     color: rgb(20, 20, 20);
 }
@@ -112,11 +112,11 @@
     color: rgb(29, 29, 29);
     margin: 10px 0;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 .maxsulot h3{
     margin: 20px 0;
-    font-size: 28px;
+    font-size: 20px;
     font-family: sans-serif;
     color: rgb(29, 29, 29);
 }
