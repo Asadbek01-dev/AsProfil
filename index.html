@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsProfile</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <script>
+        let defender =
+            /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(
+                navigator.userAgent
+            );
+        if (defender) {
+            document.querySelector("link[href='css/main.css']").href =
+                "css/mobilni.css";
+        }
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#check").click(function () {
+                $("#toglle_a").slideToggle("slow");
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="eng_tepasi">
+        <div class="emaili">
+            <img src="img/104069.png" alt="">
+            <p>asprofil@gmail.com</p>
+        </div>
+        <div class="telefoni">
+            <img src="img/phone.png" alt="">
+            <p>+998991234567</p>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+                <label for="check">
+                    <input type="checkbox" id="check" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+            <div class="menu" id="toglle_a">
+                <a href="#haqidagi">KOMPANIYA HAQIDA</a>
+                <a href="#max_malumot">MAHSULOTLAR</a>
+                <a href="#aloqa">ALOQA</a>
+
+            </div>
+        </div>
+        <div class="haqida" id="haqidagi">
+            <div class="haqida_rasm">
+                <img src="img/photo_2021-11-29_16-42-54.jpg" alt="">
+            </div>
+            <div class="haqida_matn">
+                <h1>KOMPANIYA XAQIDA</h1>
+                <p>"SIFAT METALL" - BIZ HAR QANDAY MURAKKABLIKDAGI
+                    QALAY MAHSULOTLARINI ISHLAB CHIQARAMIZ!
+                    QALAY MAHSULOTLARINI ISHLAB CHIQARISHDA 22 YILLIK TAJRIBAGA EGA
+                    BO'LGAN HOLDA, BIZ HAR BIR MAHSULOTIMIZNING SIFATIGA KAFOLAT
+                    BERAMIZ. ⁣⁣SIFAT METALL - O'ZBEKISTONDAGI ENG YUQORI SIFATGA EGA
+                    BO'LGAN KOMPANIYA. ⁣⁣BIZDA HAR BIR MAHSULOT - XAM SIFAT, XAM DIZAYN
+                    TOMONLAMA YUQORI DARAJADA ISHLAB CHIQARILADI.⁣⁣⠀⁣⁣</p>
+            </div>
+
+        </div>
+        <div class="max_malumot" id="max_malumot">
+            <div class="max_rasm1">
+                <img src="img/photo_2022-01-19_19-27-47.jpg" alt="">
+            </div>
+            <div class="maxsulot">
+                <h1>MAHSULOTLAR XAQIDA</h1>
+                <h3>Bizda quidagi xizmatlar mavjud:</h3>
+                <p>⁣⁣* Profnastil (1 1.7 2.2 3.5 5.7)⁣⁣</p>
+                <p>* Profnastil aksessuarlari</p>
+                <p>⁣⁣* Metall cherepitsa</p>
+                <p>* Tunikabond</p>
+                <p>* Tunika sayding ⁣⁣</p>
+                <p>* Sendvich panel</p>
+                <p>* Truba montajlari</p>
+                <h4>Mijozlarimizga g'amxo'rlik qilib, biz doimiy <br> mijozlarimizuchun turli xil bonuslarni amalga <br>
+                    oshiramiz. ⁣⁣⠀⁣⁣⁣⁣Siz ham tezroq ularning safiga qo'shiling!</h4>
+            </div>
+            
+        </div>
+        <div class="aloqa_bolmi" id="aloqa_bolmi">
+            <div class="aloqa_img">
+                <img src="img/3chirasm.png" alt="">
+            </div>
+            <div class="aloqainput" id="aloqa">
+                <div class="aloqa_h1">
+                    <h1>ALOQA FORMASI</h1>
+                </div>
+                <div class="input">
+                    <input type="text" placeholder="Ism">
+                    <input type="number" placeholder="Telefon">
+                    <input type="text" placeholder="Mavzu">
+                </div>
+                <div class="messa">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Habar matni"></textarea>
+                </div>
+                <div class="aloqa_button"><button>Jo'natish</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="third" id="contacts">
+
+        <div class="starter-template">
+            <!-- <h2>Contact Us</h2><br> -->
+            <div class="basic-container">
+                <!-- <div class="contact">
+              <p class="lead">Location</p>
+              <p>The student team spaces can be found at Urban Mill, located between Startup Sauna and Aalto Design Factory at the Aalto University campus in Otaniemi, Espoo (Street Address: Betonimiehenkuja 3, Espoo, Finland). Most of the lectures will also be held at Urban Mill. The accommodation of the students is at Forenom Hostel (Street Address: Kivimiehentie 2, Espoo), which is only a 5-minute walk away from Urban Mill.<br><br></p>
+              <p class="lead">Get in Touch</p>
+              startupsummerprogram@outlook.com</p>
+            </div> -->
+                <div class="contact">
+                    <iframe id="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7936.021807966812!2d24.832175000000017!3d60.18064199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df58d0b88505f%3A0xaacf6d4afeea4ebb!2sUrban+Mill!5e0!3m2!1sfi!2sfi!4v1434351601478"
+                        frameborder="0" style="border:0"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="engpasti">
+        <div class="engpastki_qismi">
+            <div class="past_menu2">
+                <a href="#haqidagi">KOMPANIYA HAQIDA</a>
+                <a href="#max_malumot">MAHSULOTLAR</a>
+                <a href="#aloqa_bolmi">ALOQA</a>
+            </div>
+            <div class="mesengerlar">
+                <button>
+                    <a href="#"><img src="img/facebook.png" alt=""></a>
+                    <a href="#"><img src="img/pastki instagram.png" alt=""></a>
+                    <a href="#"><img src="img/vk.png" alt=""></a>
+                    <a href="#"><img src="img/telegrampastki.png" alt=""></a>
+                </button>
+            </div>
+        </div>
+        <div class="ortaqismi">
+            <div class="joylashuv">
+                <img src="/img/bxs_map.png" alt="">
+                <div class="joylashuv_matni">
+                    <p>O'ZBEKISTON, ANDIJON VILOYATI,</p>
+                    <p>MARG'ILON SHAXRI, YAKKATUT125.</p>
+                </div>
+
+            </div>
+            <div class="telefon22">
+                <img src="img/phone.png" alt="">
+                <div class="joylashuv_matni">
+                    <a href="#">+998 99 222 22 22</a>
+                    <p>Bizga qo'ngiroq qiling</p>
+                </div>
+
+            </div>
+            <div class="email22">
+                <img src="img/104069.png" alt="">
+                <div class="joylashuv_matni">
+                    <a href="#">asprofil@gmail.com</a>
+                    <p>Bizga yozing</p>
+                </div>
+            </div>
+        </div>
+        <div class="eng_pastkiqism">
+            <div class="paskiqism_chekka"><a href="#"><img src="img/internet.png" alt="">AsProfil.uz-Tunuka ishlab
+                    chiqarish kompaniyasi</a></div>
+
+        </div>
+
+    </div>
+    <script src="css/js/index.js"></script>
+</body>
+
+</html>
