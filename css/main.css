@@ -211,12 +211,12 @@
   .engpasti{
       margin-top: 10px;
       width: 100%;
-      height: 40vh;
       background-color: #262b38;
   }
 .engpastki_qismi{
     padding-top: 70px;
     display: flex;
+    height: auto;
     width: 84%;
     margin: 0 8%;
     align-items: center;
