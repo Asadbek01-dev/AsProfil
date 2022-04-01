@@ -272,7 +272,7 @@ label{
       width: 13px;
       margin: 0 5px;
       margin-top: 5px;
-      height: 15px;
+      height: 12px;
   }
   .ortaqismi{
       width: 94%;
@@ -313,8 +313,8 @@ label{
 }
 .paskiqism_chekka{
     display: flex;
-    width: 94%;
-    margin: 0 3%;
+    width: 96%;
+    margin: 0 2%;
     align-items: center;
 }
 .paskiqism_chekka a{
