@@ -150,6 +150,13 @@
     width: 650px;
     height: 600px;
 }
+video{
+    width: 650px;
+    margin-top: 70px;
+}
+source{
+    height: 900px !important;
+}
 .aloqa_h1{
     display: block;
 }
