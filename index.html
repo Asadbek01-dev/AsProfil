@@ -114,14 +114,14 @@
                     <h1>ALOQA FORMASI</h1>
                 </div>
                 <div class="input">
-                    <input id="ismi" type="text" placeholder="Ism">
-                    <input id="telefoni" type="number" placeholder="Telefon" value="+998 ">
-                    <input id="mavzusi" type="text" placeholder="Mavzu">
+                    <input id="name" name="Ismi" type="text" placeholder="Ism">
+                    <input id="phoneNumber" name="phoneNumber" type="phone" placeholder="Telefon" value="+998 ">
+                    <input id="title" name="title" type="text" placeholder="Mavzu">
                 </div>
                 <div class="messa">
-                    <textarea id="messa" name="" id="" cols="30" rows="10" placeholder="Habar matni"></textarea>
+                    <textarea id="text" name="text" id="" cols="30" rows="10" placeholder="Habar matni"></textarea>
                 </div>
-                <div id="button" class="aloqa_button"><button>Jo'natish</button></div>
+                <div class="aloqa_button"><button id="button__send">Jo'natish</button></div>
             </div>
         </div>
     </div>
@@ -195,6 +195,7 @@
 
     </div>
     <script src="css/js/index.js"></script>
+    <script src="css/js/sendForm.js"></script>
 </body>
 
 </html>

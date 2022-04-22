@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000'
+const BASE_URL = 'https://asprofil.uz'
 
 const name = document.querySelector('input#name');
 const phoneNumber = document.querySelector('input#phoneNumber');
